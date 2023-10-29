@@ -57,3 +57,17 @@ print(f'{bancos}\n{preco_acoes}')
 # else:
 #     print('Não conheço esse tipo de dinheiro!')
 # loops
+# meta_vendas = 10
+# vendas = 0
+# while vendas < meta_vendas:
+#     print(f'Total de vendas: {vendas}! Trabalhem mais')
+#     vendas +=1
+# print('Meta batida')
+# i = 0
+# while i < 10:
+#     print(i)
+#     i += 1
+for banco in bancos:
+    print(banco)
+for i in range(0, len(bancos)):
+    print(bancos[i], preco_acoes[i])

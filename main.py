@@ -42,11 +42,18 @@ bancos.remove( 'Santander')
 preco_acoes.sort()
 print(f'{bancos}\n{preco_acoes}')
 # condicionais
-dinheiro = int(input('Quanto dinheiro você tem para investir?'))
-if dinheiro <= 20:
-    print('Invista em você mesmo ')
-elif dinheiro > 20 and dinheiro <= 1000:
-    print('Comece a montar uma carteira de investimento')
-else:
-    print('Invista pesado e se aposente cedo')
+# dinheiro = int(input('Quanto dinheiro você tem para investir?'))
+# if dinheiro <= 20:
+#     print('Invista em você mesmo ')
+# elif dinheiro > 20 and dinheiro <= 1000:
+#     print('Comece a montar uma carteira de investimento')
+# else:
+#     print('Invista pesado e se aposente cedo')
+# metodo_pagamento = input('Qual seu método de pagamento? ')
+# if metodo_pagamento == 'pix' or metodo_pagamento == 'cartão':
+#     print('Podemos receber seu pagamento')
+# elif metodo_pagamento == 'dinheiro':
+#     print('Infelizmente não podemos aceitar pois não vivvemos mais como os Incas :(')
+# else:
+#     print('Não conheço esse tipo de dinheiro!')
 # loops

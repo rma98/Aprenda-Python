@@ -27,6 +27,26 @@ print(equacao)
 num_max, num_min, rentabilidade_ibovespa = max(4, 10), min(4, 10), round(0.45851545, 2)
 print(f'Maior: {num_max}\nMenor: {num_min}\nRentabilidade: {rentabilidade_ibovespa}')
 # como coletar dados do usuário
-nome = input('Seu nome: ')
-idade = int('Sua idade: ')
-altura = float('Sua altura: ')
+# nome = input('Seu nome: ')
+# idade = int(input('Sua idade: '))
+# altura = float(input('Sua altura: '))
+# listas
+nomes = ['Breno', 'Leandro', 'Lucas']
+print(f'{nomes[0:2]}')
+bancos = ['Itau', 'Bradesco', 'Banco do Brasil']
+preco_acoes = [20, 15, 10]
+bancos.append('Santander')
+preco_acoes.append(30)
+bancos.insert(1, 'Nubank')
+bancos.remove( 'Santander')
+preco_acoes.sort()
+print(f'{bancos}\n{preco_acoes}')
+# condicionais
+dinheiro = int(input('Quanto dinheiro você tem para investir?'))
+if dinheiro <= 20:
+    print('Invista em você mesmo ')
+elif dinheiro > 20 and dinheiro <= 1000:
+    print('Comece a montar uma carteira de investimento')
+else:
+    print('Invista pesado e se aposente cedo')
+# loops
